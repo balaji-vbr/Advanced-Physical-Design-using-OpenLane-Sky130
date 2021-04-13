@@ -29,7 +29,7 @@ Magic – for Layout and Floorplanning <br />
 Qflow – RTL2GDS integration <br />
 OpenSTA & Opentimer - for Pre-layout and Post-layout Static timing analysis <br />
 
-## **DAY 1** : ### **Inception of open-source EDA, OpenLANE and Sky130 PDK**
+## **DAY 1 : Inception of open-source EDA, OpenLANE and Sky130 PDK**
 
 
  There are three subdirectories needed for the workshop:
@@ -53,7 +53,7 @@ This is the summary of cells in the design after running the synthesis.
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%201/Screenshot%20(111).png" width = 700>
 
 
-## **DAY 2** : ### **Good floorplan vs bad floorplan and introduction to library cells**
+## **DAY 2 : Good floorplan vs bad floorplan and introduction to library cells**
 
 In Floorplanning we typically set the Die and Core Area, Aspect Ratio etc., we also place the input and output pins.Two key descriptions of a floorplan are utilization and aspect ratio. The amount of area of the die core the standard cells are taking up is called utilization. In floorplanning we define locations for preplaced cells. Blockages are needed to ensure no standard cells are mapped where the preplaced cells are located.
 Decoupling capacitors are placed local to preplaced cells during Floorplanning. Voltage drops associated with interconnect wires can heavily affect our noise margin or put it into an indeterminate state. Decoupling capacitor is a big capacitor located next to the macros to fix this problem. 
@@ -80,7 +80,7 @@ And finally to view the placement in Magic we need to again provide the same thr
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%202/Screenshot%20(116).png" width = 700>
 
 
-## **DAY 3** : ### ** Design library cell using Magic Layout and ngspice characterization**
+## **DAY 3 :  Design library cell using Magic Layout and ngspice characterization**
 
 16 Mask CMOS Process : In this process we'll be able to create a CMOS involving the following steps.
 
@@ -129,7 +129,7 @@ The plot can be viewed by plotting the output vs time while sweeping the input:
 
 
 
-## **DAY 4** : ### **Pre-layout timing analysis and importance of good clock tree**
+## **DAY 4 : Pre-layout timing analysis and importance of good clock tree**
 
 ### **LAB:**
 
@@ -152,7 +152,7 @@ The plot can be viewed by plotting the output vs time while sweeping the input:
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%204/Screenshot%20(136).png" width = 700>
 
 
-## **DAY 5** : ### **Final steps for RTL2GDS using tritonRoute and openSTA**
+## **DAY 5 : Final steps for RTL2GDS using tritonRoute and openSTA**
 
 ### **LAB:**
 
