@@ -49,7 +49,7 @@ After preparing the design to run synthesis simply type "*run_synthesis*".
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%201/Screenshot%20(110).png" width = 700>
 
-
+This is the summary of cells in the design after running the synthesis.
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%201/Screenshot%20(111).png" width = 700>
 
