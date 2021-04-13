@@ -110,10 +110,11 @@ Select the specific layer/device by hovering over the object and pressing, s, it
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(118).png" width = 700>
 
-By typing the command "*what*" in the tckon window we'll get the info.
-<img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(120).png" width = 700>
-
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(121).png" width = 700>
+
+By typing the command "*what*" in the tckon window we'll get the info.
+
+<img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(120).png" width = 700>
 
 To extract the parasitic spice file for the associated layout first we need to create an extraction file it is done by.
 
