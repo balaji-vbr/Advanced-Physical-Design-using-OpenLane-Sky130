@@ -164,3 +164,13 @@ The plot can be viewed by plotting the output vs time while sweeping the input:
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%205/Screenshot%20(140).png" width = 700>
 
+
+
+## **Acknowledgements**
+Mr.[Kunal Ghosh](https://www.vlsisystemdesign.com/about-me/) Co-founder of [VLSI System Design Pvt. Ltd](https://www.vlsisystemdesign.com/).
+
+Mr. Nickson Jose - Teaching Assistant.
+
+Ms. Praharsha - Teaching Assistant.
+
+Ms. Akurathi Radhika - Teaching Assistant.
