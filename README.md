@@ -178,7 +178,7 @@ This database file is created from the post-cts LEF and DEF files. To generate t
 
 ## **DAY 5 : Final steps for RTL2GDS using tritonRoute and openSTA**
 
-After generating the clock tree network and also verifying the post STA analysis now routing can be done. Now to buid the Power Distibution Network (PDN) simply type "*generate_pdn*". This pdn will create a Power ring global to the entire core, Power straps to bring power into the center of the chip and create power rails for the standard cells
+After generating the clock tree network and also verifying the post STA analysis now routing can be done. Now to buid the Power Distibution Network (PDN) simply type "*gen_pdn*". This pdn will create a Power ring global to the entire core, Power straps to bring power into the center of the chip and create power rails for the standard cells
 
 ### **LAB:**
 
