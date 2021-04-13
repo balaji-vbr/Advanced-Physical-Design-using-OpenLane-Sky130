@@ -156,30 +156,43 @@ The delay of this cell is very large due to a high load capacitance due to high 
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%204/Screenshot%20(129).png" width = 700>
 
-After running floorplan and standard cell placement in OpenLANE we are ready to insert our clock tree for sequential elements in our design. Two of the main concerns with generation of the clock tree are:
+After running floorplan and standard cell placement in OpenLANE we are ready to insert our clock tree for sequential elements in our design. <br />
+To run Clock Tree Synthesis simply type "*run_cts*".
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%204/Screenshot%20(130).png" width = 700>
 
-
+Now a new .def file is generated which contains information of our design after CTS is performed. To view this netlist we need to invoke the .def file with the Magic tool:
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%204/Screenshot%20(131).png" width = 700>
+
+We can perform STA analysis from within OpenLANE by invoking OpenROAD. In OpenROAD the timing analysis is done by creating a .db database file. 
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%204/Screenshot%20(132).png" width = 700>
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%204/Screenshot%20(133).png" width = 700>
+
+This database file is created from the post-cts LEF and DEF files. To generate the .db files within OpenROAD.
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%204/Screenshot%20(136).png" width = 700>
 
 
 ## **DAY 5 : Final steps for RTL2GDS using tritonRoute and openSTA**
 
+After generating the clock tree network and also verifying the post STA analysis now routing can be done. Now to buid the Power Distibution Network (PDN) simply type "*generate_pdn*". This pdn will create a Power ring global to the entire core, Power straps to bring power into the center of the chip and create power rails for the standard cells
+
 ### **LAB:**
 
+Openlane uses triton route as main routing engine for the physical implementations of the design, which takes place in two stages "Global routing" and "Detailed routing"
+
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%205/Screenshot%20(137).png" width = 700>
+
+To run routing in openlane simply type "*run_routing*" and wait this process takes some time to finish.
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%205/Screenshot%20(138).png" width = 700>
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%205/Screenshot%20(139).png" width = 700>
+
+Finally post routing interconnect parasitics can be extracted to perform post-route STA analysis. The parasitics are extracted into a SPEF file. The SPEF extractor is not included within OpenLANE as of now.
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%205/Screenshot%20(140).png" width = 700>
 
