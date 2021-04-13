@@ -102,13 +102,20 @@ And finally to view the placement in Magic we need to again provide the same thr
 
 ### **LAB:**
 
+For using the inverter design mag file we need to clone the repo from the github link https://github.com/nickson-jose/vsdstdcelldesign and run MAGIC tool using the Skylane130A tech file and inverter mag file.
+
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(117).png" width = 700>
+
+Select the specific layer/device by hovering over the object and pressing, s, iteratively, until you traverse the hierarchy to the specified object
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(118).png" width = 700>
 
+By typing the command "*what*" in the tckon window we'll get the info.
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(120).png" width = 700>
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(121).png" width = 700>
+
+To extract the parasitic spice file for the associated layout first we need to create an extraction file it is done by.
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(122).png" width = 700>
 
