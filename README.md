@@ -72,7 +72,7 @@ To view our floorplan in Magic we need to provide three files as input Magic tec
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%202/Screenshot%20(114).png" width = 700>
 
-To run the placement after the synthesis step simply type "run_placement". 
+To run the placement after the synthesis step simply type "*run_placement*". 
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%202/Screenshot%20(115).png" width = 700>
 
