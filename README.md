@@ -68,11 +68,15 @@ After the synthesis step to run floorplan in openlane simly type "*run_floorplan
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%202/Screenshot%20(113).png" width = 700>
 
-
+To view our floorplan in Magic we need to provide three files as input Magic technology file, DEF file of floorplan and Merged LEF file.
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%202/Screenshot%20(114).png" width = 700>
 
+To run the placement after the synthesis step simply type "run_placement". 
+
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%202/Screenshot%20(115).png" width = 700>
+
+And finally to view the placement in Magic we need to again provide the same three files whic are imput magic technology file, DEF file of placement and Merged LEF file.
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%202/Screenshot%20(116).png" width = 700>
 
