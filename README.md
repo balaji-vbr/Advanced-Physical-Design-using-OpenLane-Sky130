@@ -1,6 +1,20 @@
 # Advanced-Physical-Design-using-OpenLane-Sky130
 
+The aim of this repository is to give an  experied during the VSD Advanced Physical Design workshop using OpenLANE.
+
+OpenLANE is an automated RTL to GDSII flow based on several components which include OpenROAD, Yosys, Magic, Netgen, Fault, OpenPhySyn, SPEF-Extractor. It is a tool started for true open source tape-out experience. The goal of OpenLANE is to produce clean GDSII without any human intervention. OpenLANE is tuned for Skywater 130nm open-source PDK and can be used to produce hard macros and chips.
+
+The total workshop is divided into 5 days with lab activities on each day as follows
+
+*DAY 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK.* <br />
+*DAY 2 - Good floorplan vs bad floorplan and introduction to library cells.* <br />
+*DAY 3 - Design library cell using Magic Layout and ngspice characterization.* <br />
+*DAY 4 - Pre-layout timing analysis and importance of good clock tree.* <br />
+*DAY 5 - Final steps for RTL2GDS using tritonRoute and openSTA.*
+
 ## **DAY 1**
+
+### **Inception of open-source EDA, OpenLANE and Sky130 PDK**
 
 ### **LAB:**
 
