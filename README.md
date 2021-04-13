@@ -85,13 +85,13 @@ And finally to view the placement in Magic we need to again provide the same thr
 
 16 Mask CMOS Process : In this process we'll be able to create a CMOS involving the following steps.
 
-Selecting the Substrate : In this step we select the base layer on which other regions will be formed. <br />
-Creating an active region for transistors : In this step SiO2 and Si3N2 are deposited on the substrate and pockets are created using photoresist and lithography. <br />
-Formation of Nwell & Pwell : In this step Pwell and nwell are formed using boron and phosphorus then placed it in a high temperature furnace. <br />
-Creating Gate terminal : In this step we create a gate terminal for desired threshold value. <br />
-Formation of Source and Drain : In this step we form the source and drain. <br />
-Creating the contacts & local interconnect : In this step we remove the SiO2 using HF etch. After this titanium deposited using sputtering. <br />
-Formation Higher Level metal layer  : In the final step upper layers of metals are deposited. <br />
+- Selecting the Substrate : In this step we select the base layer on which other regions will be formed. <br />
+- Creating an active region for transistors : In this step SiO2 and Si3N2 are deposited on the substrate and pockets are created using photoresist and lithography. <br />
+- Formation of Nwell & Pwell : In this step Pwell and nwell are formed using boron and phosphorus then placed it in a high temperature furnace. <br />
+- Creating Gate terminal : In this step we create a gate terminal for desired threshold value. <br />
+- Formation of Source and Drain : In this step we form the source and drain. <br />
+- Creating the contacts & local interconnect : In this step we remove the SiO2 using HF etch. After this titanium deposited using sputtering. <br />
+- Formation Higher Level metal layer  : In the final step upper layers of metals are deposited. <br />
 
 ### **LAB:**
 
