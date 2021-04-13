@@ -120,7 +120,11 @@ To extract the parasitic spice file for the associated layout first we need to c
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(122).png" width = 700>
 
+To run the simulation with ngspice, invoke the ngspice tool with the spice file as input:
+
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(123).png" width = 700>
+
+The plot can be viewed by plotting the output vs time while sweeping the input:
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%203/Screenshot%20(124).png" width = 700>
 
