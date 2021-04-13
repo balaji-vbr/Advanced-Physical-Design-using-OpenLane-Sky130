@@ -56,9 +56,19 @@ This is the summary of cells in the design after running the synthesis.
 
 ## **DAY 2**
 
+In Floorplanning we typically set the Die and Core Area, Aspect Ratio etc., we also place the input and output pins.Two key descriptions of a floorplan are utilization and aspect ratio. The amount of area of the die core the standard cells are taking up is called utilization. In floorplanning we define locations for preplaced cells. Blockages are needed to ensure no standard cells are mapped where the preplaced cells are located.
+Decoupling capacitors are placed local to preplaced cells during Floorplanning. Voltage drops associated with interconnect wires can heavily affect our noise margin or put it into an indeterminate state. Decoupling capacitor is a big capacitor located next to the macros to fix this problem. 
+
+
+The next step after floorplanning is placement. The synthesized netlist has been mapped to standard cells and floorplanning phase has determined the standard cells rows, enabling placement. OpenLANE does placement in two stages which are "Global Placement" and "Detailed Placement" . In global placement, all cells are placed on the floorplan in a random manner. In Detailed Placement it legalizes placement of cells.
+
 ### **LAB:**
 
+After the synthesis step to run floorplan in openlane simly type "*run_floorplan*".  The output the the floorplan phase is a DEF file which describes core area and placement of standard cell.
+
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%202/Screenshot%20(113).png" width = 700>
+
+
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%202/Screenshot%20(114).png" width = 700>
 
