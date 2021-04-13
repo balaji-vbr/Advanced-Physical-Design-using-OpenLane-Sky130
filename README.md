@@ -142,7 +142,11 @@ To ensure the pins are aligned and the cell is aligned in the routing grid in Ma
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%204/Screenshot%20(126).png" width = 700>
 
+After generating the cell LEF files to iclude them in the openlane we need to overwrite the previous run to include the new configuration. So the additional line to include the extra cell LEF is <br />
 
+"*openLANE_flow/designs/picorv32a/src/sky130_vsdinv.lef*" <br />
+ 
+ Then we need to run synthesis again to check the cell has been integrated successfully.
 
 <img src = "https://github.com/balaji-vbr/Advanced-Physical-Design-using-OpenLane-Sky130/blob/main/Images/DAY%204/Screenshot%20(128).png" width = 700>
 
